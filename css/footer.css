@@ -1,0 +1,150 @@
+footer {
+  font-family:Arial, sans-serif;
+  float:left;display:block;width:100%;
+
+}
+footer a {
+  text-decoration:none;
+  transition:1s;color:#454545;
+}
+footer a:hover {
+  color:#000000;
+}
+footer h1, footer h2, footer h3, footer h4, footer h5, footer p {
+  margin:0;padding:0;display:block;width:100%;
+}
+
+
+footer.light {color:#454545;}
+footer.dark {color:#EEEEEE;}
+
+footer .inner {
+  margin:0 auto;width:100%;max-width:90%;
+}
+
+footer .inner .information,
+footer .inner .headline,
+footer .inner .copyright {
+  float:left;display:block;width:100%;
+  font-size:12px;
+}
+
+/* Contact Information Start */
+footer .inner .information div {
+  float:left;display:block;width:100%;
+}
+footer .inner .information div.address {
+  display:block;width:100%;
+  max-width:320px;
+}
+footer .inner .information div.address .logo {
+  display:block;width:100%;
+  margin:15px 0 15px 0;
+  height:25px;
+}
+footer .inner .information div.address .logo img {
+  height:auto;max-height:25px;
+}
+footer .inner .information div.address .details {
+}
+footer .inner .information div.address .details p {
+  margin:0 0 10px 0;font-size:12px;
+}
+/* Contact Information End */
+
+
+/* Subscribe and Follow Start */
+footer .inner .information div.subscribe {
+  float:right;display:block;width:100%;
+  max-width:250px;text-align:right;
+}
+footer .inner .information div.subscribe p.title {
+  font-size:14px;line-height:45px;
+}
+footer .inner .information div.subscribe form {
+  float:left;width:100%;
+  margin:0 0 30px 0;
+  position:relative;border:solid 1px #666666;
+  box-sizing:border-box;
+  background:rgba(255,255,255,0.0);
+}
+footer .inner .information div.subscribe form input {
+  float:left;width:100%;display:block;
+  box-sizing:border-box;border:none;
+  padding:5px;line-height:20px;
+}
+footer .inner .information div.subscribe form input::placeholder {
+  font-size:10px;
+}
+footer .inner .information div.subscribe form button {
+  float:right;position:absolute;top:0;right:0;
+  padding:5px;line-height:20px;border:none;cursor:pointer;
+  color:#666666;background:rgba(255,255,255,0.0);
+}
+
+footer .inner .information  .sociallinks {
+  float:left;width:100%;clear:both;
+}
+footer .inner .information  .sociallinks p {
+  display:block;width:100%;font-size:13px;font-weight:600;line-height:100%;
+  padding:0 0 15px 0;
+}
+footer .inner .information  .sociallinks ul {
+  float:right;width:auto;
+  margin:0;padding:0;list-style:none;
+}
+footer .inner .information  .sociallinks ul li {
+  float:left;width:auto;
+  margin:0 0 0 5px;
+  font-size:10px;
+}
+footer .inner .information  .sociallinks ul li a {
+  display:block;width:25px;
+  color:#FFFFFF;background:#333333;
+  text-align:center;line-height:25px;
+  border-radius:30px;
+}
+footer .inner .information  .sociallinks ul li a:hover {
+  color:#999999;background:#000000;
+}
+/* Subscribe and Follow End */
+
+
+/* headline and Copyright Start */
+footer .inner .headline,
+footer .inner .copyright {
+  text-align:center;
+  font-weight:400;
+  font-size:12px;
+}
+footer .inner .headline {
+  margin:45px 0 0px 0;
+}
+footer .inner .copyright {
+  font-size:11px;
+  margin:15px 0 45px 0;
+}
+/* headline and Copyright End */
+
+
+@media only screen and (max-width:640px) {
+
+  footer .inner .information div.address {
+    text-align:center;
+    float:none;margin:0 auto;display:block;width:100%;
+  }
+  footer .inner .information div.subscribe {
+    text-align:center;
+    float:none;margin:0 auto;display:block;width:100%;
+    max-width:250px;
+  }
+  footer .inner .information div.subscribe ul {
+    float:none;
+    margin:0 auto;display:inline-block;width:auto;}
+
+  footer .inner .headline {
+    padding:0 10px;box-sizing:border-box;
+    font-size:12px;
+  }
+
+}
